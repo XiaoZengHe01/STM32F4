@@ -11,14 +11,14 @@ extern "C"
 
   typedef enum LED_STATUS
   {
-    D1_ON,
-    D1_OFF,
-    D2_ON,
-    D2_OFF,
-    D3_ON,
-    D3_OFF,
-    D4_ON,
-    D4_OFF
+    LED1_ON,
+    LED1_OFF,
+    LED2_ON,
+    LED2_OFF,
+    LED3_ON,
+    LED3_OFF,
+    LED4_ON,
+    LED4_OFF
   }LED_STATUS;
 
   void LED_Initialize(u16 On);
